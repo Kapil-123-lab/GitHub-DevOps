@@ -1,0 +1,27 @@
+clear
+status
+git add .
+git status
+git rm --cached .\newtestcase.py
+git status
+git add .\newtestcase.py
+git status
+git commit -m "adding to stage"
+git commit -m "adding to stage"
+git status
+git add .
+git status
+git commit -m "adding to stage"
+git config --global user.email "kapilkanaujiya@gmail.com"
+git config --global user.name "Kapil Kanaujiya"
+git commit -m "adding to stage"
+git status
+git remote add origin https://github.com/Kapil-123-lab/GitHub-DevOps.git
+git remote -v
+git push -u origin maain
+git push -u origin main
+git push -u origin main
+git push origin main
+git branch -M main
+git push origin main
+  
